@@ -19,7 +19,7 @@
 }
 
 html {
-  font-size: 32px;
+  font-size: 16px;
   font-family: "Pretendard-Regular";
   font-weight: 400;
 }
@@ -32,16 +32,34 @@ html {
 .contents {
   position: fixed;
   width: 100%;
-  padding: 0 3.75rem;
+  margin-left: 3rem;
 }
 
 .title {
-  top: 1.25rem;
-  width: 17.5rem;
+  top: 2.25rem;
+  width: 16.438rem;
+  height: 3.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 0.9rem;
+  font-size: 1.25rem;
+}
+
+.icon {
+  width: 3.75rem;
+  height: 3.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0ff49;
+  border-radius: 100%;
+}
+
+.timeLocation {
+  height: 3.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1,
@@ -50,35 +68,36 @@ h2 {
 }
 
 h1 {
-  line-height: 1.2;
-  font-size: 9.75rem;
+  line-height: 1.1;
+  font-size: 13.75rem;
   font-family: "Jockey One";
   color: var(--white);
 }
 
 h2 {
-  line-height: 0.6;
-  font-size: 1.75rem;
+  line-height: 1.2;
+  font-size: 2.25rem;
   color: var(--white);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .contents {
-  bottom: 1.6rem;
+  bottom: 2.25rem;
 }
 
 .weeklyWeather {
-  width: 18rem;
+  width: 28.75rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.125rem;
 }
 .weeklyWeather .dailyWeather {
   background-color: var(--white);
   color: white;
-  width: 2.5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 8rem;
   border-radius: 999rem;
   display: flex;
   flex-direction: column;
@@ -86,6 +105,7 @@ h2 {
   justify-content: center;
 }
 .weeklyWeather > div:first-child {
-  width: 3rem;
-  height: 6rem;
+  width: 5rem;
+  height: 9.25rem;
+  font-size: 1.25rem;
 }/*# sourceMappingURL=style.css.map */
